@@ -13,17 +13,7 @@ header h1 {
 header p{
   margin-top: -1em;
 }
-.row {
-  height: 97px;
-  width:100%;
-}
-.col-12 {
-  width: 100%;
-}
 img {
-  width: 100%;
-}
-.col-4 {
   width: 100%;
 }
 .card {
@@ -32,8 +22,3 @@ img {
   border: 1px solid lightgray;
   margin-bottom: 20px;
 }
-/* Non-mobile, grid */
-
-.col-4 {
-    width: 33.333333%;
-  }
