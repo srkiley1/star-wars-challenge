@@ -3,38 +3,37 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
 header {
   background-color: #eebb44;
   margin-bottom: 40px;
 }
-h1 {
-  font-weight: bold;
-  display: inline-block;
+header h1 {
+  line-height: 1;
+}
+header p{
+  margin-top: -1em;
+}
+.row {
+  height: 97px;
+  width:100%;
+}
+.col-12 {
+  width: 100%;
 }
 img {
-  width: 300px;
+  width: 100%;
 }
 .col-4 {
   width: 100%;
 }
-/*h1 {
-  font-size: 25px;
-}*/
 .card {
   display:inline-block;
-  text-align: center;
+  text-align: left;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
 }
-/*p {
-  font-size: 15px;
-}
-.card-caption {
-  text-align: center;
-}*/
 /* Non-mobile, grid */
 
-  /* 3 columns, 3/12 in % */
-
-  .col-4 {
+.col-4 {
     width: 33.333333%;
   }
