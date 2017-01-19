@@ -11,7 +11,7 @@ header h1 {
   line-height: 1;
 }
 header p{
-  margin-top: -1em;
+  margin-top: 0.5em;
 }
 img {
   width: 100%;
